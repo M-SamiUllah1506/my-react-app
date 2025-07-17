@@ -1,2 +1,3 @@
-# my-react-app
-React_Learning
+# My-react-app
+Starting from Basics And Done Already the basics
+
