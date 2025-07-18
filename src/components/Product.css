@@ -1,0 +1,45 @@
+/* Product.css */
+
+.product-card {
+  width: 200px;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.product-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-name {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.product-type {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.product-price {
+  font-size: 16px;
+  color: #00a86b;
+  font-weight: bold;
+}
+.product-row {
+  display: flex;              /* 🔁 Arrange in row */
+  flex-wrap: wrap;            /* 🔁 Wrap to next line if screen too small */
+  justify-content: center;    /* 🔁 Center align horizontally */
+  gap: 20px;                  /* 🔁 Space between items */
+  padding: 20px;
+}
