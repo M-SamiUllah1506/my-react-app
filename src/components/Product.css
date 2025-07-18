@@ -1,5 +1,3 @@
-/* Product.css */
-
 .product-card {
   width: 200px;
   margin: 10px;
@@ -37,9 +35,9 @@
   font-weight: bold;
 }
 .product-row {
-  display: flex;              /* 🔁 Arrange in row */
-  flex-wrap: wrap;            /* 🔁 Wrap to next line if screen too small */
-  justify-content: center;    /* 🔁 Center align horizontally */
-  gap: 20px;                  /* 🔁 Space between items */
+  display: flex;              
+  flex-wrap: wrap;            
+  justify-content: center;    
+  gap: 20px;                  
   padding: 20px;
 }
