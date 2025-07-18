@@ -3,27 +3,27 @@ import Product from "./components/Product";
 function App() {
   const expenses = [
     {
-      id: 'e1',
-      title: 'Toilet Paper',
+      id: "e1",
+      title: "Toilet Paper",
       amount: 94.12,
       date: new Date(2020, 7, 14),
     },
-    { id: 'e2', title: 'New TV', amount: 799.49, date: new Date(2021, 2, 12) },
+    { id: "e2", title: "New TV", amount: 799.49, date: new Date(2021, 2, 12) },
     {
-      id: 'e3',
-      title: 'Car Insurance',
+      id: "e3",
+      title: "Car Insurance",
       amount: 294.67,
       date: new Date(2021, 2, 28),
     },
     {
-      id: 'e4',
-      title: 'New Desk (Wooden)',
+      id: "e4",
+      title: "New Desk (Wooden)",
       amount: 450,
       date: new Date(2021, 5, 12),
     },
   ];
 
-    const items = [
+  const items = [
     {
       name: "Purple Sneakers",
       price: "$24",
@@ -46,8 +46,34 @@ function App() {
 
   return (
     <div>
-       <Expenses items={expenses}/>
-       <
+       <Product 
+       title={items[0].img}
+      name={items[0].name}
+      type={items[0].type}
+      price={items[0].price}
+      />
+       <Product 
+       title={items[1].img}
+      name={items[1].name}
+      type={items[1].type}
+      price={items[1].price}
+      />
+       <Product 
+       title={items[2].img}
+      name={items[2].name}
+      type={items[2].type}
+      price={items[2].price}
+      />
+       <Product 
+       title={items[3].img}
+      name={items[3].name}
+      type={items[3].type}
+      price={items[3].price}
+      />
+
+      <Expenses items={expenses} />
+     
+      
     </div>
   );
 }
