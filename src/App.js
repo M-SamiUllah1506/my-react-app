@@ -1,34 +1,40 @@
+import React, { useState } from "react";
 import Expenses from "./components/Expenses";
 import Product from "./components/Product";
 import NewExpense from "./components/NewExpense/NewExpense";
+const Dummy_State = [
+  {
+    id: "e1",
+    title: "News  Paper",
+    amount: 694.132,
+    date: new Date(2020, 1, 14),
+  },
+  {
+    id: "e2",
+    title: "New TV",
+    amount: 7699.439,
+    date: new Date(2021, 4, 12),
+  },
+  {
+    id: "e3",
+    title: "Bike Insurance",
+    amount: 2294.467,
+    date: new Date(2021, 9, 28),
+  },
+  {
+    id: "e4",
+    title: "Table (Wooden)",
+    amount: 3450,
+    date: new Date(2021, 5, 112),
+  },
+];
 function App() {
-  const expenses = [
-    {
-      id: "e1",
-      title: "News  Paper",
-      amount: 694.132,
-      date: new Date(2020, 1, 14),
-    },
-    {
-      id: "e2",
-      title: "New TV",
-      amount: 7699.439,
-      date: new Date(2021, 4, 12),
-    },
-    {
-      id: "e3",
-      title: "Bike Insurance",
-      amount: 2294.467,
-      date: new Date(2021, 9, 28),
-    },
-    {
-      id: "e4",
-      title: "Table (Wooden)",
-      amount: 3450,
-      date: new Date(2721, 5, 112),
-    },
-  ];
-
+  const [expenses, setExpenses] = useState(Dummy_State);
+  const addExpenseHandler = (expense) => {
+    setExpenses((prevExpenses) => {
+      return [expense, ...prevExpenses];
+    });
+  };
   const items = [
     {
       name: "Purple Sneakers",
@@ -49,10 +55,7 @@ function App() {
       img: "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/06/4410121/1.jpg?4437",
     },
   ];
- const addExpenseHandler=expense=>{
-  console.log('in_app.js')
-  console.log(expenses);
-}
+  
   return (
     <div>
       <div className="product-row">
@@ -66,12 +69,10 @@ function App() {
           />
         ))}
       </div>
-      <NewExpense onAddExpense={addExpenseHandler}/>
+      <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
     </div>
   );
 }
 
 export default App;
-
-
