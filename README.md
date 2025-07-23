@@ -10,10 +10,12 @@ Passing props between components to create reusable and scalable interfaces
 Using event handlers to control state updates (e.g., onClick, onChange)
 
 Implementing basic interactivity like toggle switches, form handling, and conditional rendering
+<img width="814" height="704" alt="image" src="https://github.com/user-attachments/assets/c422e2e0-59ea-491e-b5ce-063fbef914e1" />
 
+**********************************************************************************************************
 
 <img width="791" height="832" alt="image" src="https://github.com/user-attachments/assets/cef5a985-a254-4915-8573-73f699ca482e" />
-********************************************************************************************************************************************************************************************************
+**********************************************************************************************************
 This is a simple React application where users can:
 
 View a list of tasks with their respective dates
