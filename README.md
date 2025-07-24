@@ -1,22 +1,39 @@
-💡 React Components & State Management
-I have hands-on experience building modular and reusable components using React. I work with both functional and class-based components, with a strong focus on:
+💰 Expense Tracker
+This is a simple Expense Tracker built with React. It allows users to track their daily expenses by adding, viewing, and managing a list of their spending. It’s a great way to practice working with state, props, forms, and conditional rendering in React.
 
-Managing local component state using useState
+🚀 Features
+📅 Add expenses with a title, amount, and date
 
-Updating UI dynamically based on state changes
+📊 View a list of all expenses
 
-Passing props between components to create reusable and scalable interfaces
+🔍 Filter expenses by year
 
-Using event handlers to control state updates (e.g., onClick, onChange)
+📉 Visual chart showing spending trends
+
+⚛️ Fully built with React functional components
+
+🧠 Uses React hooks: useState, useEffect
+
+💾 Data managed in the component state (no backend yet)
+
+🛠️ Technologies Used
+React (with Hooks)
+
+JavaScript (ES6+)
+
+HTML5
+
+CSS3
+
+Optional: Tailwind CSS or plain CSS modules (depending on your styling)
+
+📷 Preview
 <img width="730" height="870" alt="image" src="https://github.com/user-attachments/assets/99fd968f-3f82-4031-ae59-a8a2c03738f9" />
 
 Implementing basic interactivity like toggle switches, form handling, and conditional rendering
-*****************************************************************************************************
-<img width="814" height="704" alt="image" src="https://github.com/user-attachments/assets/c422e2e0-59ea-491e-b5ce-063fbef914e1" />
-
-**********************************************************************************************************
 
 
+**************************************************************************************************************************************
 This is a simple React application where users can:
 
 View a list of tasks with their respective dates
