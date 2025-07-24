@@ -25,12 +25,13 @@ HTML5
 
 CSS3
 
-Optional: Tailwind CSS or plain CSS modules (depending on your styling)
-
 📷 Preview
-<img width="730" height="870" alt="image" src="https://github.com/user-attachments/assets/99fd968f-3f82-4031-ae59-a8a2c03738f9" />
 
-Implementing basic interactivity like toggle switches, form handling, and conditional rendering
+
+
+
+
+<img width="730" height="870" alt="image" src="https://github.com/user-attachments/assets/99fd968f-3f82-4031-ae59-a8a2c03738f9" />
 
 
 **************************************************************************************************************************************
